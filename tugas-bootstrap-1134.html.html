@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <style>
+        body { 
+            background-color: #f4f6f9; 
+            font-family: Arial, sans-serif;
+        }
+        
+        /* Pewarnaan Khusus Sesuai Rekaan Asal */
+        .bg-gold { background-color: #ffd700; color: #000; font-weight: bold; }
+        .bg-blue { background-color: #0d6efd; color: #fff; font-weight: 600; }
+        .bg-yellow-box { background-color: #fffacd; color: #000; }
+        .bg-green-box { background-color: #e0eee0; color: #000; }
+        .bg-brown-light { background-color: #d2b48c; color: #000; font-weight: bold; }
+        .bg-brown-dark { background-color: #8b4513; color: #fff; font-weight: bold; }
+        
+        /* Modifikasi Gambar Slider */
+        .slider-img { 
+            object-fit: cover; 
+            height: 450px; 
+            width: 100%; 
+            border-radius: 8px;
+        }
+
+        /* Pautan (Link) Instagram */
+        .insta-link {
+            color: #000;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .insta-link:hover {
+            color: #0d6efd;
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container my-5 bg-white p-4 rounded shadow-lg" style="max-width: 1100px">
+        <div class="p-3 mv-3 text-center bg-gold rpunded shadow-sm">
+            OUTER BANKS
+        </div>
+
+        <div class="p-2 mb-4 text-center bg-blue rounder shadow-sm">
+            A TELEVISION SERIES (2020 - 2026)
+        </div>
+
+        <div id="outerbanks" class="carousel slide mb-4 shadow-sm rounded" data-bs-ride="carousel">
+            <div class="carousel-inner rounded">
+
+                <div class="carousel-item active">
+                    <img src="https://dnm.nflximg.net/api/v6/BvVbc2Wxr2w6QuoANoSpJKEIWjQ/AAAAQauO7GPL0Q90st13nc-UFEm-vrhGtpOSej0bKXQrJv-u7xffQFp6ZMpCu9Km9zyHtF96c4-jWXe8lSFVJCAxPcwrbp4rQRVDIkdaw4mrnDJdwQZ2KpD_IqxaG2On1AjmIPZZLbYPchqL1yBRMoKT6-LUYoc.jpg?r=083" class="d-block slider-img" alt="OBX">
+                </div>
+
+            </div>
+        </div>
+        <div class="row g-4 mb-4">
+
+            <div class="col-lg-8">
+
+                <div class="card mb-3 bg-yellow-box border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="fw-bold mb-2" style="font-size: 1.1rem;">Genre:</div>
+                        <ul class="mb-0" style="padding-left: 1.2rem">
+                            <li>Teen Drama</li>
+                            <li>Action-adventure</li>
+                            <li>Mystery</li>
+                            <li>Thriller</li>
+                        </ul>
+                    </div>
+                </div>
+            <div class="card mb-3 bg-yellow-box border-0 shadow-sm">
+                <div class="card-body">
+                    <div class="fw-bold mb-2" style="font-size: 1.1rem;">Created by:</div>
+                    <ul class="mb-0" style="padding-left: 1.2rem;">
+                        <li>Josh Pate</li>
+                        <li>Jonas Pate</li>
+                        <li>Shannon Burke</li>
+                    </ul>
+                </div>
+            </div> 
+            <div class="card bg-yellow-box border 0 shadow-sm">
+                <div class="card-body">
+                    <div class="fw-bold mb-2" style="font-size: 1.1rem;">Synopsis:</div>
+                    <p class="card-text mb-0">Outer Banks, also known by the abbreviation OBX, is an American action-adventure mystery teen drama television series created by Josh Pate, Jonas Pate, and Shannon Burke that premiered on Netflix on April 15, 2020. The series is set in a community in the Outer Banks of North Carolina and follows the conflict between two groups of teenagers in search of a lost treasure.</p>
+                </div>
+            </div>
+
+            </div>
+
+            <div class="col-lg-4">
+
+                <div class="card mb-4 bg-green-box border-0 shadow-sm">
+                    <div class="card-body">
+                        <div class="fw-bold mb-2" style="font-size: 1.1rem;">Cast:</div>
+                        <p class="mb-2"><b>Chase Stokes, Madelyn Cline</b></p>
+                        <p class="mb-2"><b>Madison Bailey, Rudy Pankow</b></p>
+                        <p class="mb-2"><b>Jonathan Daviss, Austin North</b></p>
+                        <p class="mb-2"><b>Charles Esten, Drew Starkey</b></p>
+                        <p class="mb-2"><b>Carlacia Grant, Fiona Palomo</b></p>
+                    </div>
+                </div>
+            
+            <div class="card bg-green-box border-0" shadow-sm>
+                <div class="card-body">
+                    <div class="fw-bold mb-2" style="font-size: 1.1rem;">Premise:</div>
+                    <p class="card-text mb-0" style="font-size: 0.76rem; text-align: justify;">Outer Banks is set in a coastal town along the Outer Banks of North Carolina, there is a stark social divide between wealthy seasonal residents and working-class locals, nicknamed the "Kooks" and "Pogues". The show follows a group of Pogue teenagers who live at The Cut and are determined to find out what happened to the missing father of the group's ringleader, John B. Chased by the law and a wealthy group of Kooks from Figure Eight, the Pogues seek to overcome obstacles such as love, fighting, friendship, and money.</p>
+                </div>
+            </div>
+
+            </div>
+        </div>
+            <div class="p-3 text-center bg-brown-light rounded-top shadow-sm">
+                This Website is only made to complete my Web Programming course assignment.
+            </div>
+
+            <div class="p-2 text-center bg-brown-dark rounded-bottom shadow-sm" style="font-size: 0.9rem;">
+                © 2026 Ghea. All Rights Reserved.
+            </div>
+    </div>
+</body>
+</html>
